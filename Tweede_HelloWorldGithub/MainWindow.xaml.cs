@@ -25,9 +25,12 @@ namespace Tweede_HelloWorldGithub
             InitializeComponent();
         }
 
+        private bool xcheck = true;
         private void btnHW_Click(object sender, RoutedEventArgs e)
         {
             lblHW.Content = "Hello world";
+
+            
         }
     }
 }
